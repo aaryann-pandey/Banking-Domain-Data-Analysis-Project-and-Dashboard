@@ -1,80 +1,73 @@
-🏦 Bank Customer Data Analysis (BankEDA)
+# 🏦 Bank Customer Data Analysis (BankEDA)
 
-This project performs Exploratory Data Analysis (EDA) on a Banking dataset to uncover patterns in customer behavior, income distribution, and financial activities.
-It focuses on cleaning, visualizing, and analyzing customer data to derive key business insights.
+This project performs an *Exploratory Data Analysis (EDA)* on a banking dataset to uncover trends in customer behavior, income distribution, and financial activities.  
+It uses *data cleaning, visualization, and statistical techniques* to explore customer profiles and understand key financial metrics.
 
-📌 Overview
+---
 
-Banking institutions generate large volumes of customer data.
-Through EDA, this project aims to identify how income, loans, savings, and account balances relate to customer loyalty and financial habits.
+## 📌 Overview
 
-This notebook focuses on:
+Banking datasets hold valuable insights into how customers manage savings, loans, and deposits.  
+This notebook focuses on:  
+- Cleaning and preparing raw banking data  
+- Categorizing customers based on income bands  
+- Performing detailed exploratory data analysis (EDA)  
+- Visualizing relationships between key banking metrics  
+- Drawing insights from numerical and categorical variables  
 
-Loading and cleaning raw banking data
+---
 
-Categorizing customers based on income bands
+## 🧠 Dataset
 
-Exploring distributions of financial and demographic variables
+The dataset used is **Banking.csv**, which includes features like:
 
-Identifying correlations between key banking metrics
+| Feature | Description |
+|---------|-------------|
+| Age | Customer’s age |
+| Estimated Income | Annual estimated income |
+| Superannuation Savings | Total retirement savings |
+| Credit Card Balance | Total outstanding balance on credit cards |
+| Bank Loans | Total value of loans taken |
+| Bank Deposits | Total deposit amount |
+| Checking Accounts | Number of checking accounts |
+| Saving Accounts | Number of saving accounts |
+| Foreign Currency Account | Whether a forex account is owned |
+| Business Lending | Total amount of business loans |
+| Loyalty Classification | Loyalty level of the customer |
+| Risk Weighting | Assigned financial risk category |
+| Properties Owned | Number of properties owned |
+| Joined Bank | Date when the customer joined the bank |
 
-Visualizing relationships using statistical plots
+---
 
-🧠 Dataset
+## ⚙ Technologies Used
 
-The dataset used is Banking.csv, which contains various financial and demographic attributes of customers.
+- *Python 3*  
+- *Pandas, NumPy* – Data cleaning and manipulation  
+- *Matplotlib, Seaborn* – Data visualization  
+- *Jupyter Notebook* – Development environment  
 
-Feature	Description
-Age	Customer’s age
-Estimated Income	Annual estimated income
-Superannuation Savings	Customer’s retirement savings
-Credit Card Balance	Total outstanding balance on credit cards
-Bank Loans	Total loan amount
-Bank Deposits	Amount deposited in bank accounts
-Checking Accounts	Number of checking accounts
-Saving Accounts	Number of saving accounts
-Foreign Currency Account	Whether the customer holds a forex account
-Business Lending	Business loan amount
-Loyalty Classification	Customer’s loyalty level
-Risk Weighting	Risk category assigned
-Properties Owned	Number of properties owned
-Joined Bank	Date when the customer joined the bank
-⚙ Technologies Used
+---
 
-Python 3
+## 🔍 Exploratory Data Analysis (EDA)
 
-Pandas, NumPy – Data cleaning and manipulation
+The following analyses were performed:  
+- **Data Cleaning** – Handling missing values, fixing data types, formatting dates  
+- **Feature Engineering** – Created income bands (Low, Mid, High) for segmentation  
+- **Univariate Analysis** – Distribution plots for age, income, loans, and deposits  
+- **Bivariate Analysis** – Relationship plots between deposits, savings, and other metrics  
+- **Correlation Heatmap** – Highlighting relationships among key financial features  
+- **Categorical Analysis** – Examined loyalty levels, occupations, and risk weightings  
 
-Matplotlib, Seaborn – Visualization and EDA
+**Key insights:**  
+- Higher income customers tend to maintain larger deposits and savings  
+- Strong positive correlation between bank loans and credit card balances  
+- Loyalty levels and income bands reveal distinct customer segments  
 
-Jupyter Notebook – Development environment
+---
 
-🔍 Exploratory Data Analysis (EDA)
+## 📈 Results
 
-The following analyses were performed:
-
-Data Cleaning: Handling missing values, formatting dates, and creating income bands (Low, Mid, High)
-
-Univariate Analysis: Histograms of numerical features like deposits, loans, and age
-
-Bivariate Analysis: Regression plots between related variables (e.g., loans vs. credit card balance)
-
-Correlation Heatmap: Measuring relationships among key financial metrics
-
-Categorical Analysis: Examining distributions for occupation, loyalty classification, and risk weighting
-
-Key Insights:
-
-High-income customers tend to maintain larger deposits and savings balances
-
-Loan and credit card balances show positive correlation
-
-Loyalty and income categories reflect diverse financial behaviors
-
-📈 Results
-
-Detailed understanding of customer financial segments
-
-Clear visual insights into income distribution and account usage
-
-Correlation map highlighting key drivers of customer wealth and banking activity
+- Generated clear financial insights into customer segments  
+- Identified top correlated features driving banking performance  
+- Built foundation for future predictive modeling on customer risk and retention  
