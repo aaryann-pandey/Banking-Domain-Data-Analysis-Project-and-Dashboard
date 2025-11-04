@@ -99,26 +99,6 @@ It enables stakeholders to explore **business lending, income segmentation, gend
 - **Deposit Analysis** – Shows deposits by income band, nationality, and account type  
 - **Summary View** – Combines major KPIs such as total clients, loan-to-deposit ratio, and revenue insights  
 - **Interactive Filters** – Year, gender, and banking relationship filters for drill-down analysis  
-
----
-
-## 🖼️ Dashboard Previews
-
-> 📂 Make sure to store screenshots in:  
-> `assets/screenshots/`
-
-### 🏠 Home / Summary Dashboard
-<img src="assets/screenshots/Screenshot_2025-11-04_224637.png" width="800">
-
-### 💰 Loan Analysis
-<img src="assets/screenshots/Screenshot_2025-11-04_224659.png" width="800">
-
-### 🏦 Deposit Analysis
-<img src="assets/screenshots/Screenshot_2025-11-04_224727.png" width="800">
-
-### 📋 Summary View
-<img src="assets/screenshots/Screenshot_2025-11-04_224745.png" width="800">
-
 ---
 
 ## 🧠 Insights Derived
