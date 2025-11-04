@@ -94,12 +94,4 @@ Stakeholders can easily filter and analyze **loan distribution, deposits, and cu
 
 ---
 
-## 👨‍💻 Author
-**Your Name**  
-_Data Analyst | Power BI Developer_  
-📧 Email: your.email@example.com  
-🌐 [LinkedIn Profile](https://www.linkedin.com/) | [GitHub Profile](https://github.com/yourusername)
 
----
-
-## 📂 Folder Structure
